@@ -1,0 +1,13 @@
+  Scanner entrada= new Scanner (System.in);
+        String nombreAlumno;
+        double evaluacion1;
+        double evaluacion2;
+        double evaluacionfinal;
+        System.out.println("nombre del alumno:");
+        nombreAlumno = entrada.nextLine();
+        System.out.println("nota 1 evaluacion");
+        evaluacion1= entrada.nextDouble ();
+        System.out.println("Nota 2 evaluacion");
+        evaluacion2= entrada.nextDouble ();
+        evaluacionfinal= evaluacion1+evaluacion2;
+        System.out.println("nota final: "+evaluacionfinal);
