@@ -1,0 +1,10 @@
+int a= 10;
+        int b= 5;
+        int suma= a+b;
+        int resta= a-b;
+        int multiplicacion= a*b;
+        int division= a/b;
+        System.out.println("la suma de"+a+"mas"+b+"es igual a"+suma);
+        System.out.println("la resta de"+a+"menos"+b+"es igual a"+resta);
+        System.out.println("el producto de"+a+"por"+b+"es igual a"+multiplicacion);
+        System.out.println("el cosiente"+a+"dividido"+b+"es igual a"+division);
