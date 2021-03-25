@@ -1,0 +1,9 @@
+int a= 4;
+        int b= 7;
+        int res;
+        res= a+b;
+        System.out.println("el resultado es:"+res);
+        // TODO code application logic here
+    }
+    
+}
