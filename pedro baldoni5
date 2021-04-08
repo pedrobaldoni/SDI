@@ -1,0 +1,10 @@
+  Scanner entrada  = new Scanner (System.in);
+        System.out.print("introduce numero entero");
+        int n = entrada.nextInt();
+        
+        if (n%10==0) {
+            System.out.println("multiplo");
+            
+        }
+        else 
+            System.out.println("no multiplo");
