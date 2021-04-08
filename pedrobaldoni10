@@ -1,0 +1,9 @@
+ int n = 0;
+       Scanner entrada = new Scanner (System.in);
+        System.out.println("ingrese numero del 1 al 100");
+        n= entrada.nextInt();
+        do {
+            System.out.println(n);
+            n++;
+        }
+        while (100 >=n);
