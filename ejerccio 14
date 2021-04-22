@@ -1,0 +1,6 @@
+  for (int num =0; 2000>=num;num++){
+            if(num%10==0){
+                System.out.println(num);
+            }
+            num++;
+        }
